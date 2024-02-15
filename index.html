@@ -37,7 +37,7 @@
 
   document.getElementById('noButton').addEventListener('click', function() {
     noButtonClickCount++;
-    if (noButtonClickCount >= 15) {
+    if (noButtonClickCount >= 10) {
       this.style.display = 'none'; // Hide the No button
     }
     document.getElementById('yesButton').style.width = (parseInt(getComputedStyle(document.getElementById('yesButton')).width) * 1.2) + 'px';
